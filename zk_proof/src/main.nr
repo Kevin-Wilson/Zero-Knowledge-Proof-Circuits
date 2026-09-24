@@ -38,8 +38,7 @@ fn main(client_income : u64,
         let loan_months = loan_term * 12;
         let disposable_income = client_income - client_non_debt_expenses - client_debt_expenses;
         let guarantor_dispoable_income = guarantor_income - guarantor_expenses;
-        let monthly_repayment = loan_amount * (( monthly_interest_rate * ((1 + monthly_interest_rate) ** loan_months)) / 
-                                ((1 + monthly_interest_rate) ** loan_months) - monthly_interest_rate);
+        let monthly_repayment = loan_amount * monthly_interest_rate * loan_months;
         assert(client_income >= minimum_income);
         assert(guarantor_income >= minimum_income);
         assert(disposable_income >= (monthly_repayment + required_reserve));
