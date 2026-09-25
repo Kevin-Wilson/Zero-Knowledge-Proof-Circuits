@@ -1,0 +1,12 @@
+client_income = 3000
+client_non_debt_expenses = 2000
+client_debt_expenses = 300
+loan_amount = 10000
+loan_term = 48
+guarantor_income = 4000
+guarantor_expenses = 3000
+
+interest_rate = 3
+maximum_debt_to_income_ratio = 36
+minimum_income = 2000
+required_reserve = 500
