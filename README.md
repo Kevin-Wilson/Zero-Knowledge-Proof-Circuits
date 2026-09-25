@@ -1,10 +1,10 @@
 # Zero Knowledge Proof Circuits
 
-This project is my first step in creating a Zero Knowledge Proof Circuit (ZKP-Circuit). By using Noir, I'm looking to create a circuit that is useful for a real-world problem and deepend my understand of how Zero Knowledge Proofs work. 
+This project is my first step in creating a Zero Knowledge Proof Circuit (ZKP-Circuit). By using Noir, I'm looking to create a circuit that is useful for a real-world problem and deepen my understanding of how Zero Knowledge Proofs work. 
 
 ## Description
 
-The circuit I created was a hypothetical ZKP-Circuit that could be used to verify eligbiility for a private loan. There are certain limitations in Noir with how arithmetic is handled so as a first look at Noir, I used a simplified formula that may not be accurate to real loan eligibility checks. 
+The circuit I created is a hypothetical ZKP-Circuit that could be used to verify eligbiility for a private loan. There are certain limitations in Noir with how arithmetic is handled so as a first look at Noir, I used a simplified formula that may not be accurate to real loan eligibility checks. 
 
 Please find below a list of all private inputs: 
 - Client net income 
@@ -20,7 +20,7 @@ Please find below a list of all public inputs:
 - Minimum income 
 - Required reserve 
 
-The prover (party who wishes to prove their loan eligiblity) can compile a witness of their values, and add it to my existing circit to generate a proof. This proof can then be verified by the verifier, to check if the prover is eligible for a loan. 
+The prover (party who wishes to prove their loan eligiblity) can compile a witness of their values, and use it with my existing circit to generate a proof. This proof can then be verified by the verifier, to check if the prover is eligible for a loan. 
 
 ## Getting Started
 
